@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Valorant In-Game Store</h1>
+    </header>
+    
+    <section id="store">
+        <h2>Select Your Skins</h2>
+        <div class="items">
+            <div class="item">
+                <img src="D:\Iskol\html_Lauresta\images\store\prime.jpg" alt="Vandal Skin">
+                <p>Prime Vandal - 1,775 VP</p>
+                <input type="checkbox" name="skin" value="prime-vandal">
+            </div>
+            <div class="item">
+                <img src="D:\Iskol\html_Lauresta\images\store\singularity.png" alt="Phantom Skin">
+                <p>Singularity Phantom - 2,175 VP</p>
+                <input type="checkbox" name="skin" value="singularity-phantom">
+            </div>
+            <div class="item">
+                <img src="D:\Iskol\html_Lauresta\images\store\th.jpg" alt="Melee Skin">
+                <p>Reaver Karambit - 3,550 VP</p>
+                <input type="checkbox" name="skin" value="reaver-karambit">
+            </div>
+        </div>
+    </section>
+    
+    <section id="purchase-form">
+        <h2>Complete Your Purchase</h2>
+        <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="payment">Payment Method:</label><br>
+            <input type="radio" name="payment" value="G-Cash"> G-Cash<br>
+            <input type="radio" name="payment" value="Credit Card"> Credit Card<br>
+            <input type="radio" name="payment" value="PayPal"> PayPal<br>
+            
+            <input type="submit" value="Submit Order">
+        </form>
+    </section>
+<hr>
+<a href="D:\Iskol\html_Lauresta\index.html">Home</a>
+
+</body>
+</html>
+
+</html>
